@@ -1,3 +1,4 @@
+
 .root {
   width: 100%;
   min-width: 250px;
@@ -8,15 +9,12 @@
   font-family: var(--tweet-font-family);
   font-weight: 400;
   box-sizing: border-box;
-  border: var(--tweet-border);
-  border-radius: 12px;
-  margin: var(--tweet-container-margin);
-  background-color: var(--tweet-bg-color);
+  background-color: var(--card);
   transition-property: background-color, box-shadow;
   transition-duration: 0.2s;
 }
 .root:hover {
-  background-color: var(--tweet-bg-color-hover);
+  background-color: var(--card);
 }
 .article {
   position: relative;
